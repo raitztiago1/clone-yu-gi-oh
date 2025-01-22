@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Yu-Gi-Oh!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Yugioh', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        @font-face {
+            font-family: 'Yugioh';
+            src: url(./src/fonts/fonte-yu-gi-oh.otf);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Clone Yu-Gi-Oh!</h1>
+    </header>
+    <main class="slider">
+        <button class="btn-seta btn-voltar" id="">
+            <img src="./src/images/seta.png" alt="Seta Avançar" id="btn-avancar">
+        </button>
+        <ul class="lista-personagens">
+            <li class="cartao fundo-1 selecionado">
+                <div class="carta-virada"></div>
+                <h2 class="nome">Cosmo Sentinel, O Guardião Galáctico</h2>
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+                <img src="./src/images/cosmos-sentinel.png" alt="Cosmo Sentinel, O Guardião Galáctico"
+                    class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">Cosmo Sentinel é um guardião galáctico que protege o universo de ameaças
+                        cósmicas. Ele é um dos mais poderosos guerreiros do universo e possui habilidades incríveis.</p>
+                    <div class="informacoes-ataque">
+                        <span class="ataque">ATK/ 2800</span>
+                        <span class="defesa">DEF/ 2500</span>
+                    </div>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="carta-virada"></div>
+                <h2 class="nome">Nebuladragon, o Ser das Estrelas Eternas</h2>
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+                <img src="./src/images/nebuladragon.png" alt="Nebuladragon, o Ser das Estrelas Eternas"
+                    class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">Nebuladragon é um ser das estrelas eternas que vive nas profundezas do
+                        universo. Ele possui poderes mágicos e é capaz de controlar a energia das estrelas.</p>
+                        <div class="informacoes-ataque">
+                        <span class="ataque">ATK/ 3200</span>
+                        <span class="defesa">DEF/ 2000</span>
+                    </div>
+                </div>
+            </li>
+            <li class="cartao fundo-3">
+                <div class="carta-virada"></div>
+                <h2 class="nome">Cyberblade Paladin, o Cavaleiro Digital</h2>
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+                <img src="./src/images/cyberblade-paladin.png" alt="Cyberblade Paladin, o Cavaleiro Digital"
+                    class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">Cyberblade Paladin é um cavaleiro digital que protege o mundo virtual de
+                        ameaças cibernéticas. Ele é um mestre da espada e possui habilidades incríveis.</p>
+
+                    <div class="informacoes-ataque">
+                        <span class="ataque">ATK/ 2600</span>
+                        <span class="defesa">DEF/ 2300</span>
+                    </div>
+                </div>
+            </li>
+            <li class="cartao fundo-4">
+                <div class="carta-virada"></div>
+                <h2 class="nome">Mechdragon X, o Destruidor Biomecanico</h2>
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+                <img src="./src/images/mechadragon.png" alt="Mechdragon X, o Destruidor Biomecanico"
+                    class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">Mechdragon X é um destruidor biomecânico que foi criado para proteger o
+                        planeta Terra de ameaças alienígenas. Ele é uma máquina de guerra poderosa e imbatível.</p>
+                    <div class="informacoes-ataque">
+                        <span class="ataque">ATK/ 3500</span>
+                        <span class="defesa">DEF/ 3000</span>
+                    </div>
+                </div>
+            </li>
+            <li class="cartao fundo-5">
+                <div class="carta-virada"></div>
+                <h2 class="nome">Archmage Stellarion, o Guardião das Estrelas</h2>
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+                <img src="./src/images/archmage.png" alt="Archmage Stellarion, o Guardião das Estrelas"
+                    class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">Archmage Stellarion é um guardião das estrelas que protege o universo de
+                        ameaças místicas. Ele é um mago poderoso e possui conhecimentos ancestrais.</p>
+                    <div class="informacoes-ataque">
+                        <span class="ataque">ATK/ 2400</span>
+                        <span class="defesa">DEF/ 2600</span>
+                    </div>
+                </div>
+            </li>
+            <li class="cartao fundo-6">
+                <div class="carta-virada"></div>
+                <h2 class="nome">Aegis Knight, o Guardião do Firmamento</h2>
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+                <img src="./src/images/aegis-knight.png" alt="Aegis Knight, o Guardião do Firmamento"
+                    class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">Aegis Knight é um guardião do firmamento que protege o céu de ameaças
+                        celestiais. Ele é um cavaleiro nobre e possui uma armadura indestrutível.</p>
+                    <div class="informacoes-ataque">
+                        <span class="ataque">ATK/ 3000</span>
+                        <span class="defesa">DEF/ 2800</span>
+                    </div>
+                </div>
+            </li>
+            <li class="cartao fundo-7">
+                <div class="carta-virada"></div>
+                <h2 class="nome">Stormbringer Dragon, o Arauto das Tempestades</h2>
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+                <img src="./src/images/stormbringer.png" alt="Stormbringer Dragon, o Arauto das Tempestades"
+                    class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">Stormbringer Dragon é um dragão lendário que controla as tempestades e os
+                        ventos. Ele é uma criatura poderosa e imprevisível.</p>
+                    <div class="informacoes-ataque">
+                        <span class="ataque">ATK/ 2900</span>
+                        <span class="defesa">DEF/ 2100</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <button>
+            <img src="./src/images/seta.png" alt="Seta Voltar" id="btn-voltar">
+        </button>
+    </main>
+</body>
+
+</html>
